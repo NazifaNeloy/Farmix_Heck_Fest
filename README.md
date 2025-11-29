@@ -1,56 +1,16 @@
-# Farmix
-https://farmix-59170.web.app/
+# React + Vite
 
-## Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Farmix is a modern agricultural dashboard designed to accelerate data-driven farming decisions within a responsive React-based architecture. It offers a streamlined interface optimized for farmers, focusing on risk mitigation, real-time analytics, and usability. The core features include:
+Currently, two official plugins are available:
 
-*   🛠 **Smart Dashboard:** Real-time visualization of weather data, crop health, and harvest timelines.
-*   🎨 **Localized UI:** Instant English/Bengali language toggling to ensure accessibility for local farmers.
-*   🔍 **Risk Analysis:** Color-coded gauges (Green/Amber/Red) to monitor spoilage risks and moisture levels.
-*   ⚡ **Optimized Performance:** Built on Vite for lightning-fast reloading and efficient asset bundling.
-*   🚀 **Seamless Deployment:** Configured for effortless deployment on Vercel or Netlify.
-*   🧩 **Modular Architecture:** Supports easy integration of IoT sensors and future AI disease detection tools.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## Prerequisites
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-This project requires the following dependencies:
+## Expanding the ESLint configuration
 
-*   **Programming Language:** JavaScript (ES6+)
-*   **Package Manager:** Npm or Yarn
-*   **Runtime:** Node.js (v16 or higher)
-
-## Installation
-
-Build the project from the source and install dependencies:
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/your-username/Farmix_Heck_Fest.git
-    ```
-
-2.  **Navigate to the project directory:**
-
-    ```bash
-    cd Farmix_Heck_Fest
-    ```
-
-3.  **Install the dependencies:**
-
-    Using npm:
-
-    ```bash
-    npm install
-    ```
-
-## Usage
-
-Run the project development server with:
-
-Using npm:
-
-```bash
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
